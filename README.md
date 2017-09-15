@@ -28,7 +28,7 @@ Update your Clojurescript version (>= 1.9.908)
   (ns cljs-react-material-ui-example.core
     (:require [cljsjs.material-ui]  ; I recommend adding this at the beginning of core file
                                     ;  so React is always loaded first. It's not always needed
-              [cljs-react-material-ui.core :as ui]
+              [cljs-react-material-ui.reagent :as ui]
               [cljs-react-material-ui.icons :as ic]))   ; SVG icons that comes with MaterialUI
                                                         ; Including icons is not required
   ```
